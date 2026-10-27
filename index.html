@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
+    
+    <div class="container my-5">
+        
+        <h1 class="text-center text-primary">student details</h1>
+      <input type="hidden" id="editStatus" value="">
+        <form id="studentform">
+                
+           <div class="row">
+            <div class="col-lg-3">
+                <input id="sid" class="form-control" type="text" placeholder=" id">
+            </div>
+            <div class="col-lg-3">
+                <input id="sname" class="form-control" type="text" placeholder="enter student name">
+            </div>
+            <div class="col-lg-3">
+                <input id="scourse" type="text" placeholder="course" class="form-control">
+            </div>
+            <div class="col-lg-3">
+                <button class="btn btn-success">SAVE</button>
+            </div>
+           </div>
+              </form>
+    </div>
+     
+
+    <table class="table">
+        <thead class="table-dark text-light">
+            <tr>
+                <th>#</th>
+                <th>id</th>
+                <th>name</th>
+                <th>course</th>
+                <th>status</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+           
+        </tbody>
+    </table>
+</body>
+<script src="./main.js">
+
+
+</script>
+</html>
